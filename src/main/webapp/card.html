@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card-Form</title>
+	<style>
+body {
+  background-image: url('images/card.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+    </style>
+
+<style>
+table {
+  background-image: url('card.jpg');
+}
+.Estilo4 {color: #9933CC}
+.Estilo5 {
+	color: #FFFFFF;
+	font-style: italic;
+}
+.Estilo7 {color: #FFFFFF; font-weight: bold; }
+.Estilo8 {color: #FFFFFF}
+.Estilo9 {color: #999999}
+</style>
+</head>
+<body >
+<h1><marquee>
+<span class="Estilo8">Welcome Bank Management Systems </span>
+</marquee>
+</h1>
+
+<form > 
+<table width="347" border="10" align="center">
+<tr>
+<td height="35" colspan="02" bordercolor="#990066" bgcolor="#CC0033"><h3 align="center" class="Estilo5">Bank-Card-Form</h3></td>
+</tr>
+<tr>
+<td width="161"><span class="Estilo7">
+  <label for="card_id">
+  card_id:</label>
+</span></td>
+<td width="176" bordercolor="#990033">
+    <div align="justify" class="Estilo9">
+      <input type="text" id="card_id" name="card_id">    
+      <br>  
+    </div></td></tr>
+
+<tr>
+<td><span class="Estilo7">
+  <label for="card_no">
+  card_no:</label>
+</span></td>
+<td bordercolor="#990033">
+    <div align="justify" class="Estilo9">
+      <input type="text" id="card_no" name="card_no">    
+      <br>  
+    </div></td></tr>
+<tr>
+<td><span class="Estilo7">
+  <label for="account_no">
+  Account_no:</label>
+</span></td>
+<td bordercolor="#990033">
+    <div align="justify" class="Estilo9">
+      <input type="text" id="account_no" name="account_no">    
+      <br>  
+    </div></td></tr>
+
+<tr>
+<td><span class="Estilo7">
+  <label for="customer_name">
+  Customer_name:</label>
+</span></td>
+<td bordercolor="#990033">
+    <div align="justify" class="Estilo9">
+      <input type="text" id="customer_name" name="customer_name">    
+      <br>  
+    </div></td></tr>
+
+<tr>
+<td><span class="Estilo7">
+  <label for="cvv">
+  cvv:</label>
+</span></td>
+<td bordercolor="#990033">
+    <div align="justify" class="Estilo9">
+      <input type="text" value=""/>    
+      <br>  
+    </div></td></tr>
+
+<tr>
+<td><span class="Estilo7">
+  <label for="card_type">
+  card_type:</label>
+</span></td>
+<td><span class="Estilo4"><span class="Estilo8">Debit
+      <input type="checkbox" id="checkbox" name="checkbox">
+Credit</span>
+<input type="checkbox" id="checkbox" name="checkbox">
+</span></td>
+</tr>
+<td colspan="02" bgcolor="white"><button type="button">
+  <div align="center">Save</div>
+</button></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
